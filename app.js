@@ -16,10 +16,8 @@ $(function(){
 	    for (var i = 0; i < data.Search.length; i++) {
          $('.search-results').append('<span>' + data.Search[i].Title + '</span><br>');
          console.log(data.Search[i].Title);
-	    };
+	       };
     	}
-      });
-});
-
-  
+    });
+  });  
 });
